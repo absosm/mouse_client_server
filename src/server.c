@@ -10,7 +10,7 @@ typedef int socklen_t;
  
 int main(void)
 {
-
+    // comment.
 	WSADATA WSAData;
 	int erreur = WSAStartup(MAKEWORD(2,2), &WSAData);
  
